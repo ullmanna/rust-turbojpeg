@@ -18,7 +18,7 @@ description = "Fast and easy JPEG encoding, decoding and lossless transforms wit
 doctest = true
 
 [dependencies]
-image = {version = ">=0.24", optional = true, default-features = false}
+image = {version = "^0.24.0", optional = true, default-features = false}
 libc = "^0.2"
 thiserror = "^1.0"
 turbojpeg-sys = {path = "turbojpeg-sys", version = "^0.1.0"}
